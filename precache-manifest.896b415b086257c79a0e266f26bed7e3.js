@@ -25,6 +25,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "80efc2a80113abb68750d7d27594423c",
-    "url": "./static/media/loading.80efc2a8.gif"
+    "url": "what-is-app/static/media/loading.80efc2a8.gif"
   }
 ]);
