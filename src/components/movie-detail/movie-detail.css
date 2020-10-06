@@ -1,0 +1,100 @@
+.movie-detail-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    margin: 90px auto 30px;
+    background-color: rgb(217, 239, 244);
+    border-radius: 10px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    overflow: hidden;
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.movie-detail-info {
+    width: 55%;
+}
+
+.icon-close-wrapper {
+    box-sizing: border-box;
+    width: 4%;
+    height: 5%;
+    max-width: 30px;
+    max-height: 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid  rgb(118, 184, 244);
+    position: absolute;
+    right: 0.6%;
+    top: 1%;
+}
+
+.icon-close-wrapper:hover {
+    background-color: rgb(118, 184, 244);
+}
+
+.icon-close-wrapper:hover .icon-close {
+    color: #fff;
+}
+
+.icon-close-wrapper:active {
+    background-color: rgb(125, 168, 249);
+}
+
+.icon-close-wrapper:active .icon-close {
+    color: #fff;
+}
+
+.icon-close {
+    font-size: 18px;
+    color: rgb(118, 184, 244);
+}
+
+.movie-detail-genre {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.movie-detail-genre li {
+    box-sizing: border-box;
+    margin: 10px 10px 0 0;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 15px;
+    border-radius: 11px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 549px) {
+    .movie-detail-wrapper {
+        flex-direction: column;
+        background-color: rgb(255, 253, 246);
+        border-radius: 0;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: 0% 5%;
+    }
+    .icon-close-wrapper {
+        width: 30px;
+        height: 30px;
+        right: 7.5%;
+        top: 1%;
+    }
+    .icon-close {
+        font-size: 20px;
+    }
+}

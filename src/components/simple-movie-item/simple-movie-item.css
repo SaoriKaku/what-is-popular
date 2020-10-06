@@ -1,0 +1,28 @@
+.movie-item-title {
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    padding: 6px 10px;
+}
+
+.movie-item-title h3 {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.movie-item-title h4 {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.simple-movie-item {
+    /* 56 + 369 + 56 */
+    height: 425px;
+    transition: all 0.4s;
+}
+
+.simple-movie-item:hover {
+    transform: translateY(-56px);
+}

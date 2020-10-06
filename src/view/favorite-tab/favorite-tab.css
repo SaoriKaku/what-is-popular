@@ -1,0 +1,36 @@
+.tab-wrapper {
+    position: relative;
+}
+
+.tab-wrapper h1 {
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    text-align: center;
+    background-color:  rgb(217, 239, 244);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.tab-container h2 {
+    height: 60px;
+    line-height: 60px;
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid rgb(217, 239, 244);
+    border-radius: 10px;
+    background-color: #fff;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width: 549px) {
+    .tab-wrapper h1 {
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+    } 
+}
